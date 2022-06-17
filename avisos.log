@@ -1,0 +1,274 @@
+[2022-06-1617:41:43] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1617:41:43] [ INFO ] [OdontologoDaoH2:108] []
+[2022-06-1617:46:13] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1617:46:13] [ INFO ] [OdontologoDaoH2:108] []
+[2022-06-1617:46:59] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1617:46:59] [ INFO ] [OdontologoDaoH2:108] []
+[2022-06-1617:47:51] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1617:47:51] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1617:47:51] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1617:47:51] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1617:47:51] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:05:11] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:05:12] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:05:12] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:05:12] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:05:13] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:05:53] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:05:53] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:05:53] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:05:53] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:05:53] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:13:26] [ INFO ] [OdontologoDaoH2:119] levantando el driver  y conexiones para consultar
+[2022-06-1620:13:26] [ INFO ] [OdontologoDaoH2:123] buscando por id
+[2022-06-1620:13:26] [ INFO ] [OdontologoDaoH2:127] ejecutando sentencia de consulta
+[2022-06-1620:13:26] [ INFO ] [OdontologoDaoH2:130] obteniendo resultados
+[2022-06-1620:18:32] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:18:32] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:18:32] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:18:32] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:18:32] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:27:25] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:27:25] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:27:25] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:27:25] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:27:25] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:27:25] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:27:25] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:27:25] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:27:25] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:27:26] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:29:22] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:29:23] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:29:23] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:29:23] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:29:23] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:29:24] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:29:24] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:29:24] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:29:24] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:29:24] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:29:25] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:29:25] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:29:25] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:29:25] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:29:25] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:29:26] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:29:26] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:29:26] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:29:26] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:29:26] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:31:40] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:31:40] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:31:40] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:31:40] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:31:40] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:31:42] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:31:42] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:31:42] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:31:42] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:31:42] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:31:45] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:31:45] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:31:45] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:31:45] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:31:45] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:31:47] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:31:47] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:31:47] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:31:47] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:31:47] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:32:22] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:32:22] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:32:22] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:32:22] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:32:22] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:32:34] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:32:34] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:32:34] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:32:34] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:32:35] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:33:26] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:33:26] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:33:26] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:33:26] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:33:26] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:33:35] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:33:35] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:33:35] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:33:35] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:33:35] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:33:36] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:33:37] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:33:37] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:33:37] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:33:37] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:33:40] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:33:40] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:33:40] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:33:40] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:33:40] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:33:47] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:33:47] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:33:47] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:33:47] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:33:47] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:36:22] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:36:22] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:36:22] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:36:22] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:36:23] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:38:17] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:38:18] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:38:18] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:38:18] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:38:18] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:38:43] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:38:43] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:38:43] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:38:43] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:38:43] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:38:45] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:38:45] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:38:45] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:38:45] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:38:45] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:38:48] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:38:48] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:38:48] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:38:48] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:38:48] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:38:49] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:38:49] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:38:49] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:38:49] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:38:49] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:38:51] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:38:51] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:38:51] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:38:51] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:38:52] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:38:52] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:38:52] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:38:52] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:38:52] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:38:52] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1620:38:54] [ INFO ] [OdontologoDaoH2:74] levantando el driver  y conexiones para consultar
+[2022-06-1620:38:54] [ INFO ] [OdontologoDaoH2:79] creando sentencia de consulta
+[2022-06-1620:38:54] [ INFO ] [OdontologoDaoH2:82] ejecutando sentencia de consulta
+[2022-06-1620:38:54] [ INFO ] [OdontologoDaoH2:85] obteniendo resultados
+[2022-06-1620:38:54] [ INFO ] [OdontologoDaoH2:108] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}]
+[2022-06-1621:01:20] [ INFO ] [OdontologoDaoH2:39] levantando el driver  y conexiones para guardar
+[2022-06-1621:01:21] [ INFO ] [OdontologoDaoH2:45] creando sentencia
+[2022-06-1621:01:21] [ INFO ] [OdontologoDaoH2:53] ejecutando la sentencia SQL
+[2022-06-1621:01:21] [ INFO ] [OdontologoDaoH2:69] añadiendo a model.Odontologo{id=0, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}
+[2022-06-1621:01:38] [ INFO ] [OdontologoDaoH2:39] levantando el driver  y conexiones para guardar
+[2022-06-1621:01:38] [ INFO ] [OdontologoDaoH2:45] creando sentencia
+[2022-06-1621:01:38] [ INFO ] [OdontologoDaoH2:53] ejecutando la sentencia SQL
+[2022-06-1621:01:38] [ INFO ] [OdontologoDaoH2:69] añadiendo a model.Odontologo{id=0, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}
+[2022-06-1621:01:49] [ INFO ] [OdontologoDaoH2:39] levantando el driver  y conexiones para guardar
+[2022-06-1621:01:49] [ INFO ] [OdontologoDaoH2:45] creando sentencia
+[2022-06-1621:01:49] [ INFO ] [OdontologoDaoH2:53] ejecutando la sentencia SQL
+[2022-06-1621:01:49] [ INFO ] [OdontologoDaoH2:69] añadiendo a model.Odontologo{id=0, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}
+[2022-06-1621:02:03] [ INFO ] [OdontologoDaoH2:82] levantando el driver  y conexiones para consultar
+[2022-06-1621:02:03] [ INFO ] [OdontologoDaoH2:87] creando sentencia de consulta
+[2022-06-1621:02:03] [ INFO ] [OdontologoDaoH2:90] ejecutando sentencia de consulta
+[2022-06-1621:02:03] [ INFO ] [OdontologoDaoH2:93] obteniendo resultados
+[2022-06-1621:02:03] [ INFO ] [OdontologoDaoH2:116] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=5, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=6, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=7, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}]
+[2022-06-1621:02:51] [ INFO ] [OdontologoDaoH2:39] levantando el driver  y conexiones para guardar
+[2022-06-1621:02:51] [ INFO ] [OdontologoDaoH2:45] creando sentencia
+[2022-06-1621:02:51] [ INFO ] [OdontologoDaoH2:53] ejecutando la sentencia SQL
+[2022-06-1621:02:52] [ INFO ] [OdontologoDaoH2:69] añadiendo a model.Odontologo{id=0, NumeroMatricula=1234, Nombre='Hernan', APellido='perascascascez'}
+[2022-06-1621:02:54] [ INFO ] [OdontologoDaoH2:82] levantando el driver  y conexiones para consultar
+[2022-06-1621:02:54] [ INFO ] [OdontologoDaoH2:87] creando sentencia de consulta
+[2022-06-1621:02:54] [ INFO ] [OdontologoDaoH2:90] ejecutando sentencia de consulta
+[2022-06-1621:02:54] [ INFO ] [OdontologoDaoH2:93] obteniendo resultados
+[2022-06-1621:02:54] [ INFO ] [OdontologoDaoH2:116] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=5, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=6, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=7, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=8, NumeroMatricula=1234, Nombre='Hernan', APellido='perascascascez'}]
+[2022-06-1621:03:02] [ INFO ] [OdontologoDaoH2:82] levantando el driver  y conexiones para consultar
+[2022-06-1621:03:02] [ INFO ] [OdontologoDaoH2:87] creando sentencia de consulta
+[2022-06-1621:03:02] [ INFO ] [OdontologoDaoH2:90] ejecutando sentencia de consulta
+[2022-06-1621:03:02] [ INFO ] [OdontologoDaoH2:93] obteniendo resultados
+[2022-06-1621:03:03] [ INFO ] [OdontologoDaoH2:116] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=5, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=6, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=7, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=8, NumeroMatricula=1234, Nombre='Hernan', APellido='perascascascez'}]
+[2022-06-1621:06:00] [ INFO ] [OdontologoDaoH2:82] levantando el driver  y conexiones para consultar
+[2022-06-1621:06:00] [ INFO ] [OdontologoDaoH2:87] creando sentencia de consulta
+[2022-06-1621:06:00] [ INFO ] [OdontologoDaoH2:90] ejecutando sentencia de consulta
+[2022-06-1621:06:00] [ INFO ] [OdontologoDaoH2:93] obteniendo resultados
+[2022-06-1621:06:00] [ INFO ] [OdontologoDaoH2:116] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=5, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=6, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=7, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=8, NumeroMatricula=1234, Nombre='Hernan', APellido='perascascascez'}]
+[2022-06-1621:06:57] [ INFO ] [OdontologoDaoH2:82] levantando el driver  y conexiones para consultar
+[2022-06-1621:06:57] [ INFO ] [OdontologoDaoH2:87] creando sentencia de consulta
+[2022-06-1621:06:57] [ INFO ] [OdontologoDaoH2:90] ejecutando sentencia de consulta
+[2022-06-1621:06:57] [ INFO ] [OdontologoDaoH2:93] obteniendo resultados
+[2022-06-1621:06:57] [ INFO ] [OdontologoDaoH2:116] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=5, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=6, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=7, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=8, NumeroMatricula=1234, Nombre='Hernan', APellido='perascascascez'}]
+[2022-06-1621:07:57] [ INFO ] [OdontologoDaoH2:82] levantando el driver  y conexiones para consultar
+[2022-06-1621:07:58] [ INFO ] [OdontologoDaoH2:87] creando sentencia de consulta
+[2022-06-1621:07:58] [ INFO ] [OdontologoDaoH2:90] ejecutando sentencia de consulta
+[2022-06-1621:07:58] [ INFO ] [OdontologoDaoH2:93] obteniendo resultados
+[2022-06-1621:07:58] [ INFO ] [OdontologoDaoH2:116] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=5, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=6, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=7, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=8, NumeroMatricula=1234, Nombre='Hernan', APellido='perascascascez'}]
+[2022-06-1621:10:22] [ INFO ] [OdontologoDaoH2:39] levantando el driver  y conexiones para guardar
+[2022-06-1621:10:22] [ INFO ] [OdontologoDaoH2:45] creando sentencia
+[2022-06-1621:10:22] [ INFO ] [OdontologoDaoH2:53] ejecutando la sentencia SQL
+[2022-06-1621:10:22] [ INFO ] [OdontologoDaoH2:69] añadiendo a model.Odontologo{id=0, NumeroMatricula=11111, Nombre='Carlos', APellido='Artunduaga'}
+[2022-06-1621:10:23] [ INFO ] [OdontologoDaoH2:82] levantando el driver  y conexiones para consultar
+[2022-06-1621:10:23] [ INFO ] [OdontologoDaoH2:87] creando sentencia de consulta
+[2022-06-1621:10:23] [ INFO ] [OdontologoDaoH2:90] ejecutando sentencia de consulta
+[2022-06-1621:10:23] [ INFO ] [OdontologoDaoH2:93] obteniendo resultados
+[2022-06-1621:10:24] [ INFO ] [OdontologoDaoH2:116] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=5, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=6, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=7, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=8, NumeroMatricula=1234, Nombre='Hernan', APellido='perascascascez'}, model.Odontologo{id=9, NumeroMatricula=11111, Nombre='Carlos', APellido='Artunduaga'}]
+[2022-06-1621:11:30] [ INFO ] [OdontologoDaoH2:82] levantando el driver  y conexiones para consultar
+[2022-06-1621:11:30] [ INFO ] [OdontologoDaoH2:87] creando sentencia de consulta
+[2022-06-1621:11:30] [ INFO ] [OdontologoDaoH2:90] ejecutando sentencia de consulta
+[2022-06-1621:11:30] [ INFO ] [OdontologoDaoH2:93] obteniendo resultados
+[2022-06-1621:11:30] [ INFO ] [OdontologoDaoH2:116] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=5, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=6, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=7, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=8, NumeroMatricula=1234, Nombre='Hernan', APellido='perascascascez'}, model.Odontologo{id=9, NumeroMatricula=11111, Nombre='Carlos', APellido='Artunduaga'}]
+[2022-06-1621:11:37] [ INFO ] [OdontologoDaoH2:82] levantando el driver  y conexiones para consultar
+[2022-06-1621:11:37] [ INFO ] [OdontologoDaoH2:87] creando sentencia de consulta
+[2022-06-1621:11:37] [ INFO ] [OdontologoDaoH2:90] ejecutando sentencia de consulta
+[2022-06-1621:11:37] [ INFO ] [OdontologoDaoH2:93] obteniendo resultados
+[2022-06-1621:11:37] [ INFO ] [OdontologoDaoH2:116] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=5, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=6, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=7, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=8, NumeroMatricula=1234, Nombre='Hernan', APellido='perascascascez'}, model.Odontologo{id=9, NumeroMatricula=11111, Nombre='Carlos', APellido='Artunduaga'}]
+[2022-06-1621:15:27] [ INFO ] [OdontologoDaoH2:127] levantando el driver  y conexiones para consultar
+[2022-06-1621:15:27] [ INFO ] [OdontologoDaoH2:131] buscando por id
+[2022-06-1621:15:27] [ INFO ] [OdontologoDaoH2:135] ejecutando sentencia de consulta
+[2022-06-1621:15:27] [ INFO ] [OdontologoDaoH2:138] obteniendo resultados
+[2022-06-1621:15:35] [ INFO ] [OdontologoDaoH2:82] levantando el driver  y conexiones para consultar
+[2022-06-1621:15:35] [ INFO ] [OdontologoDaoH2:87] creando sentencia de consulta
+[2022-06-1621:15:35] [ INFO ] [OdontologoDaoH2:90] ejecutando sentencia de consulta
+[2022-06-1621:15:35] [ INFO ] [OdontologoDaoH2:93] obteniendo resultados
+[2022-06-1621:15:36] [ INFO ] [OdontologoDaoH2:116] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=5, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=6, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=7, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=8, NumeroMatricula=1234, Nombre='Hernan', APellido='perascascascez'}, model.Odontologo{id=9, NumeroMatricula=11111, Nombre='Carlos', APellido='Artunduaga'}]
+[2022-06-1621:15:41] [ INFO ] [OdontologoDaoH2:127] levantando el driver  y conexiones para consultar
+[2022-06-1621:15:41] [ INFO ] [OdontologoDaoH2:131] buscando por id
+[2022-06-1621:15:41] [ INFO ] [OdontologoDaoH2:135] ejecutando sentencia de consulta
+[2022-06-1621:15:41] [ INFO ] [OdontologoDaoH2:138] obteniendo resultados
+[2022-06-1621:17:10] [ INFO ] [OdontologoDaoH2:39] levantando el driver  y conexiones para guardar
+[2022-06-1621:17:10] [ INFO ] [OdontologoDaoH2:45] creando sentencia
+[2022-06-1621:17:10] [ INFO ] [OdontologoDaoH2:53] ejecutando la sentencia SQL
+[2022-06-1621:17:10] [ INFO ] [OdontologoDaoH2:69] añadiendo a model.Odontologo{id=0, NumeroMatricula=1234, Nombre='Heascascrnan', APellido='perascascascez'}
+[2022-06-1621:17:17] [ INFO ] [OdontologoDaoH2:82] levantando el driver  y conexiones para consultar
+[2022-06-1621:17:17] [ INFO ] [OdontologoDaoH2:87] creando sentencia de consulta
+[2022-06-1621:17:17] [ INFO ] [OdontologoDaoH2:90] ejecutando sentencia de consulta
+[2022-06-1621:17:17] [ INFO ] [OdontologoDaoH2:93] obteniendo resultados
+[2022-06-1621:17:17] [ INFO ] [OdontologoDaoH2:116] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=5, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=6, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=7, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=8, NumeroMatricula=1234, Nombre='Hernan', APellido='perascascascez'}, model.Odontologo{id=9, NumeroMatricula=11111, Nombre='Carlos', APellido='Artunduaga'}, model.Odontologo{id=10, NumeroMatricula=1234, Nombre='Heascascrnan', APellido='perascascascez'}]
+[2022-06-1621:17:32] [ INFO ] [OdontologoDaoH2:39] levantando el driver  y conexiones para guardar
+[2022-06-1621:17:32] [ INFO ] [OdontologoDaoH2:45] creando sentencia
+[2022-06-1621:17:32] [ INFO ] [OdontologoDaoH2:53] ejecutando la sentencia SQL
+[2022-06-1621:17:32] [ INFO ] [OdontologoDaoH2:69] añadiendo a model.Odontologo{id=0, NumeroMatricula=1234, Nombre='Heascascrnan', APellido='perascascascez'}
+[2022-06-1621:17:38] [ INFO ] [OdontologoDaoH2:39] levantando el driver  y conexiones para guardar
+[2022-06-1621:17:38] [ INFO ] [OdontologoDaoH2:45] creando sentencia
+[2022-06-1621:17:38] [ INFO ] [OdontologoDaoH2:53] ejecutando la sentencia SQL
+[2022-06-1621:17:38] [ INFO ] [OdontologoDaoH2:69] añadiendo a model.Odontologo{id=0, NumeroMatricula=12341111, Nombre='Heascascrnan', APellido='perascascascez'}
+[2022-06-1621:17:41] [ INFO ] [OdontologoDaoH2:82] levantando el driver  y conexiones para consultar
+[2022-06-1621:17:41] [ INFO ] [OdontologoDaoH2:87] creando sentencia de consulta
+[2022-06-1621:17:41] [ INFO ] [OdontologoDaoH2:90] ejecutando sentencia de consulta
+[2022-06-1621:17:41] [ INFO ] [OdontologoDaoH2:93] obteniendo resultados
+[2022-06-1621:17:42] [ INFO ] [OdontologoDaoH2:116] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=5, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=6, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=7, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=8, NumeroMatricula=1234, Nombre='Hernan', APellido='perascascascez'}, model.Odontologo{id=9, NumeroMatricula=11111, Nombre='Carlos', APellido='Artunduaga'}, model.Odontologo{id=10, NumeroMatricula=1234, Nombre='Heascascrnan', APellido='perascascascez'}, model.Odontologo{id=11, NumeroMatricula=1234, Nombre='Heascascrnan', APellido='perascascascez'}, model.Odontologo{id=12, NumeroMatricula=12341111, Nombre='Heascascrnan', APellido='perascascascez'}]
+[2022-06-1621:18:30] [ INFO ] [OdontologoDaoH2:39] levantando el driver  y conexiones para guardar
+[2022-06-1621:18:30] [ INFO ] [OdontologoDaoH2:45] creando sentencia
+[2022-06-1621:18:30] [ INFO ] [OdontologoDaoH2:53] ejecutando la sentencia SQL
+[2022-06-1621:18:31] [ INFO ] [OdontologoDaoH2:69] añadiendo a model.Odontologo{id=0, NumeroMatricula=234234234, Nombre='Carlos', APellido='Artunduaga'}
+[2022-06-1621:18:31] [ INFO ] [OdontologoDaoH2:82] levantando el driver  y conexiones para consultar
+[2022-06-1621:18:31] [ INFO ] [OdontologoDaoH2:87] creando sentencia de consulta
+[2022-06-1621:18:32] [ INFO ] [OdontologoDaoH2:90] ejecutando sentencia de consulta
+[2022-06-1621:18:32] [ INFO ] [OdontologoDaoH2:93] obteniendo resultados
+[2022-06-1621:18:32] [ INFO ] [OdontologoDaoH2:116] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=5, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=6, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=7, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=8, NumeroMatricula=1234, Nombre='Hernan', APellido='perascascascez'}, model.Odontologo{id=9, NumeroMatricula=11111, Nombre='Carlos', APellido='Artunduaga'}, model.Odontologo{id=10, NumeroMatricula=1234, Nombre='Heascascrnan', APellido='perascascascez'}, model.Odontologo{id=11, NumeroMatricula=1234, Nombre='Heascascrnan', APellido='perascascascez'}, model.Odontologo{id=12, NumeroMatricula=12341111, Nombre='Heascascrnan', APellido='perascascascez'}, model.Odontologo{id=13, NumeroMatricula=234234234, Nombre='Carlos', APellido='Artunduaga'}]
+[2022-06-1621:18:38] [ INFO ] [OdontologoDaoH2:82] levantando el driver  y conexiones para consultar
+[2022-06-1621:18:38] [ INFO ] [OdontologoDaoH2:87] creando sentencia de consulta
+[2022-06-1621:18:38] [ INFO ] [OdontologoDaoH2:90] ejecutando sentencia de consulta
+[2022-06-1621:18:38] [ INFO ] [OdontologoDaoH2:93] obteniendo resultados
+[2022-06-1621:18:38] [ INFO ] [OdontologoDaoH2:116] [model.Odontologo{id=1, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=2, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=3, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=4, NumeroMatricula=12345, Nombre='esteban', APellido='villa'}, model.Odontologo{id=5, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=6, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=7, NumeroMatricula=1234, Nombre='Hernan', APellido='perez'}, model.Odontologo{id=8, NumeroMatricula=1234, Nombre='Hernan', APellido='perascascascez'}, model.Odontologo{id=9, NumeroMatricula=11111, Nombre='Carlos', APellido='Artunduaga'}, model.Odontologo{id=10, NumeroMatricula=1234, Nombre='Heascascrnan', APellido='perascascascez'}, model.Odontologo{id=11, NumeroMatricula=1234, Nombre='Heascascrnan', APellido='perascascascez'}, model.Odontologo{id=12, NumeroMatricula=12341111, Nombre='Heascascrnan', APellido='perascascascez'}, model.Odontologo{id=13, NumeroMatricula=234234234, Nombre='Carlos', APellido='Artunduaga'}]
