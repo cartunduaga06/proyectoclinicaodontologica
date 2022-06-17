@@ -52,7 +52,7 @@ public class DomicilioDaoH2 implements Idao<Domicilio> {
     }
 
     @Override
-    public void eliminar(Integer id) {
+    public void eliminar(int id) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         try {

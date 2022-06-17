@@ -10,7 +10,7 @@ public interface Idao<T> {
 
      T buscar(int id);
 
-public void eliminar(Integer id);
+public void eliminar(int id);
 
     public T actualizar(T t);
 }

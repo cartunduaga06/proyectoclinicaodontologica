@@ -9,9 +9,9 @@ window.addEventListener('load', function () {
 
         //creamos un JSON que tendrá los datos de un nuevo odontologo
         const formData = {
-            nombre: document.querySelector('#nombre').value,
-            apellido: document.querySelector('#apellido').value,
 
+            apellido: document.querySelector('#apellido').value,
+            nombre: document.querySelector('#nombre').value,
             numeroMatricula: document.querySelector('#matricula').value
 
         };
@@ -31,17 +31,9 @@ window.addEventListener('load', function () {
             .then(data => {
                 //Si no hay ningun error se muestra un mensaje diciendo que el odontologo
                 //se agrego bien
-
-                let successAlert =  <div className="alert alert-warning alert-dismissible" role="alert">
-                    <span type="button" className="close" data-dismiss="alert" aria-label="Close"><span
-                        aria-hidden="true">&times;</span></span>
-                    <strong>Warning!</strong> Still on beta stage.
-                </div>
-
-
-               /* let successAlert = '<div class="alert alert-success alert-dismissible">' +
+                let successAlert = '<div class="alert alert-success alert-dismissible">' +
                     '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-                    '<strong></strong> Odontologo agregado </div>'  */
+                    '<strong></strong> Odontologo agregado </div>'
 
                 document.querySelector('#response').innerHTML = successAlert;
                 document.querySelector('#response').style.display = "block";
@@ -71,9 +63,9 @@ window.addEventListener('load', function () {
     (function(){
         let pathname = window.location.pathname;
         if(pathname === "/"){
-            document.querySelector(".nav .nav-item a:first").addClass("active");
+            document.querySelector(".nav .nav-item ").addClass("active");
         } else if (pathname == "/odontologoList.html") {
-            document.querySelector(".nav .nav-item a:last").addClass("active");
+            document.querySelector(".nav .nav-item ").addClass("active");
         }
     })();
 });

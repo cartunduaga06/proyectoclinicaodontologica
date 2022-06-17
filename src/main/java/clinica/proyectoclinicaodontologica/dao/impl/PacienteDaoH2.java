@@ -70,7 +70,7 @@ public class PacienteDaoH2 implements Idao<Paciente> {
     }
 
     @Override
-    public void eliminar(Integer id) {
+    public void eliminar(int id) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         try {
