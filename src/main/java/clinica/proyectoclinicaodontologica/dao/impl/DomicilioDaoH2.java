@@ -1,13 +1,14 @@
 package clinica.proyectoclinicaodontologica.dao.impl;
 
-import com.dh.clinica.dao.IDao;
-import com.dh.clinica.model.Domicilio;
+
+import clinica.proyectoclinicaodontologica.dao.Idao;
+import clinica.proyectoclinicaodontologica.model.Domicilio;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DomicilioDaoH2 implements IDao<Domicilio> {
+public class DomicilioDaoH2 implements Idao<Domicilio> {
 
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";
     //con la instruccion INIT=RUNSCRIPT cuando se conecta a la base ejecuta el script de sql que esta en dicho archivo
@@ -74,7 +75,7 @@ public class DomicilioDaoH2 implements IDao<Domicilio> {
     }
 
     @Override
-    public Domicilio buscar(Integer id) {
+    public Domicilio buscar(int id) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         Domicilio domicilio = null;

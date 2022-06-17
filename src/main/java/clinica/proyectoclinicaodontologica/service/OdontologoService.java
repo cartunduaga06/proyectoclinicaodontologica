@@ -31,6 +31,6 @@ public class OdontologoService {
 
 
     public Odontologo buscarPorId(int id) {
-        return odontologodao.buscarPorId(id);
+        return odontologodao.buscar(id);
     }
 }

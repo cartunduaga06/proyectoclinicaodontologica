@@ -1,17 +1,19 @@
 package clinica.proyectoclinicaodontologica.service;
 
 
-import com.dh.clinica.dao.IDao;
-import com.dh.clinica.model.Paciente;
+
+
+import clinica.proyectoclinicaodontologica.dao.Idao;
+import clinica.proyectoclinicaodontologica.model.Paciente;
 
 import java.util.Date;
 import java.util.List;
 
 public class PacienteService {
 
-    private IDao<Paciente> pacienteIDao;
+    private Idao<Paciente> pacienteIDao;
 
-    public PacienteService(IDao<Paciente> pacienteIDao) {
+    public PacienteService(Idao<Paciente> pacienteIDao) {
         this.pacienteIDao = pacienteIDao;
     }
 

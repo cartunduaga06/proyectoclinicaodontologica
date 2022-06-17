@@ -118,7 +118,7 @@ public class OdontologoDaoH2 implements Idao<Odontologo> {
     }
 
     @Override
-    public Odontologo buscarPorId(int id) {
+    public Odontologo buscar(int id) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         Odontologo odontologo = null;
@@ -158,5 +158,24 @@ public class OdontologoDaoH2 implements Idao<Odontologo> {
         }
 
         return odontologo;
+    }
+
+    @Override
+    public void eliminar(Integer id) {
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+
+        try {
+            logger.info("levantando el driver  y conexiones para eliminar");
+            forName(DB_JDBC_DRIVER);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    @Override
+    public Odontologo actualizar(Odontologo odontologo) {
+        return null;
     }
 }

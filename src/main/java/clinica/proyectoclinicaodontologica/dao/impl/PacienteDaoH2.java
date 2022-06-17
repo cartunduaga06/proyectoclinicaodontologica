@@ -1,16 +1,17 @@
 package clinica.proyectoclinicaodontologica.dao.impl;
 
 
-import com.dh.clinica.dao.IDao;
-import com.dh.clinica.model.Domicilio;
-import com.dh.clinica.model.Paciente;
-import com.dh.clinica.util.Util;
+import clinica.proyectoclinicaodontologica.dao.Idao;
+import clinica.proyectoclinicaodontologica.model.Domicilio;
+import clinica.proyectoclinicaodontologica.model.Paciente;
+import clinica.proyectoclinicaodontologica.util.Util;
 
+import java.sql.Connection;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PacienteDaoH2 implements IDao<Paciente>  {
+public class PacienteDaoH2 implements Idao<Paciente> {
 
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";
     //con la instruccion INIT=RUNSCRIPT cuando se conecta a la base ejecuta el script de sql que esta en dicho archivo
@@ -18,7 +19,7 @@ public class PacienteDaoH2 implements IDao<Paciente>  {
     private final static String DB_USER ="sa";
     private final static String DB_PASSWORD = "sa";
 
-    private com.dh.clinica.dao.impl.DomicilioDaoH2 domicilioDaoH2 = new com.dh.clinica.dao.impl.DomicilioDaoH2();
+    private DomicilioDaoH2 domicilioDaoH2 = new  DomicilioDaoH2();
 
 
 
@@ -92,7 +93,7 @@ public class PacienteDaoH2 implements IDao<Paciente>  {
     }
 
     @Override
-    public Paciente buscar(Integer id) {
+    public Paciente buscar(int id) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         Paciente paciente = null;
@@ -167,6 +168,8 @@ public class PacienteDaoH2 implements IDao<Paciente>  {
 
         return pacientes;
     }
+
+
 
     @Override
     public Paciente actualizar(Paciente paciente) {
