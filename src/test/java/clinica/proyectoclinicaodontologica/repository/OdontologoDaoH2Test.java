@@ -1,7 +1,7 @@
-package clinica.proyectoclinicaodontologica.dao;
+package clinica.proyectoclinicaodontologica.repository;
 
 
-import clinica.proyectoclinicaodontologica.dao.impl.OdontologoDaoH2;
+import clinica.proyectoclinicaodontologica.repository.impl.OdontologoDaoH2;
 import clinica.proyectoclinicaodontologica.model.Odontologo;
 import org.junit.Assert;
 import org.junit.BeforeClass;

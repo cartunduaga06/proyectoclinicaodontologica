@@ -7,11 +7,11 @@ public class Odontologo {
     private String Nombre;
     private String Apellido;
 
-    public Odontologo(int id, int numeroMatricula, String nombre, String APellido) {
+    public Odontologo(int id, int numeroMatricula, String nombre, String apellido) {
         this.id = id;
         NumeroMatricula = numeroMatricula;
         Nombre = nombre;
-        this.Apellido = APellido;
+        this.Apellido = apellido;
     }
 
     public Odontologo(int numeroMatricula, String nombre, String apellido) {

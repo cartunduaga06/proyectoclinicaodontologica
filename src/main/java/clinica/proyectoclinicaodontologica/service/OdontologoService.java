@@ -1,6 +1,6 @@
 package clinica.proyectoclinicaodontologica.service;
 
-import clinica.proyectoclinicaodontologica.dao.Idao;
+import clinica.proyectoclinicaodontologica.repository.Idao;
 import clinica.proyectoclinicaodontologica.model.Odontologo;
 
 
@@ -32,5 +32,13 @@ public class OdontologoService {
 
     public Odontologo buscarPorId(int id) {
         return odontologodao.buscar(id);
+    }
+
+    public Odontologo actualizar(Odontologo odontologo) {
+        return odontologodao.actualizar(odontologo);
+    }
+
+    public void eliminar(int id) {
+        odontologodao.eliminar(id);
     }
 }

@@ -1,7 +1,7 @@
 package clinica.proyectoclinicaodontologica.controller;
 
 
-import clinica.proyectoclinicaodontologica.dao.impl.TurnoRepository;
+import clinica.proyectoclinicaodontologica.repository.impl.TurnoRepository;
 import clinica.proyectoclinicaodontologica.model.Turno;
 import clinica.proyectoclinicaodontologica.service.TurnoService;
 import org.springframework.http.ResponseEntity;

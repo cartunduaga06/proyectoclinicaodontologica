@@ -1,8 +1,8 @@
 package clinica.proyectoclinicaodontologica.service;
 
 
-import clinica.proyectoclinicaodontologica.dao.impl.DomicilioDaoH2;
-import clinica.proyectoclinicaodontologica.dao.impl.PacienteDaoH2;
+import clinica.proyectoclinicaodontologica.repository.impl.DomicilioDaoH2;
+import clinica.proyectoclinicaodontologica.repository.impl.PacienteDaoH2;
 import clinica.proyectoclinicaodontologica.model.Domicilio;
 import clinica.proyectoclinicaodontologica.model.Paciente;
 import org.junit.Assert;

@@ -1,6 +1,6 @@
-package clinica.proyectoclinicaodontologica.dao.impl;
+package clinica.proyectoclinicaodontologica.repository.impl;
 
-import clinica.proyectoclinicaodontologica.dao.Idao;
+import clinica.proyectoclinicaodontologica.repository.Idao;
 import clinica.proyectoclinicaodontologica.model.Odontologo;
 
 import org.apache.log4j.Logger;
@@ -17,11 +17,12 @@ public class OdontologoDaoH2 implements Idao<Odontologo> {
     private static final Logger logger = Logger.getLogger(OdontologoDaoH2.class);
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";
     private final static String DB_URL = "jdbc:h2:~/db_new1";
-    private final static String DB_USER ="sa";
+    private final static String DB_USER = "sa";
     private final static String DB_PASSWORD = "sa";
     private static final String SQL_CREATE = "create table IF NOT EXISTS odontologos (id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY, matricula BIGINT, nombre varchar(255),apellido varchar (255));";
     private static final String SQL_CONSULTA = "select * from odontologos";
-    public OdontologoDaoH2(){
+
+    public OdontologoDaoH2() {
 
     }
 
@@ -29,10 +30,8 @@ public class OdontologoDaoH2 implements Idao<Odontologo> {
     public Odontologo guardar(Odontologo odontologo) {
 
 
-
         Connection connection = null;
         PreparedStatement preparedStatement = null;
-
 
 
         try {
@@ -45,7 +44,7 @@ public class OdontologoDaoH2 implements Idao<Odontologo> {
             logger.info("creando sentencia");
             preparedStatement = connection.prepareStatement("INSERT INTO odontologos(matricula, nombre, apellido) VALUES(?,?,?)");
             //preparedStatement.setInt(1,odontologo.getId());
-            preparedStatement.setInt(1,odontologo.getNumeroMatricula());
+            preparedStatement.setInt(1, odontologo.getNumeroMatricula());
             preparedStatement.setString(2, odontologo.getNombre());
             preparedStatement.setString(3, odontologo.getApellido());
 
@@ -54,7 +53,7 @@ public class OdontologoDaoH2 implements Idao<Odontologo> {
             preparedStatement.executeUpdate();
 
 
-        } catch (Exception e ) {
+        } catch (Exception e) {
             e.printStackTrace();
         } finally {
             try {
@@ -66,10 +65,9 @@ public class OdontologoDaoH2 implements Idao<Odontologo> {
             }
         }
 
-        logger.info("añadiendo a "+odontologo);
+        logger.info("añadiendo a " + odontologo);
         return odontologo;
     }
-
 
 
     @Override
@@ -80,7 +78,7 @@ public class OdontologoDaoH2 implements Idao<Odontologo> {
 
         try {
             logger.info("levantando el driver  y conexiones para consultar");
-            forName(DB_JDBC_DRIVER);
+            Class.forName(DB_JDBC_DRIVER);
             connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
 
 
@@ -91,7 +89,7 @@ public class OdontologoDaoH2 implements Idao<Odontologo> {
             ResultSet result = preparedStatement.executeQuery();
 
             logger.info("obteniendo resultados");
-            while (result.next()){
+            while (result.next()) {
                 int id = result.getInt("id");
                 int matricula = result.getInt("matricula");
                 String nombre = result.getString("nombre");
@@ -100,8 +98,7 @@ public class OdontologoDaoH2 implements Idao<Odontologo> {
             }
 
 
-
-        } catch (SQLException | ClassNotFoundException e ) {
+        } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
         } finally {
             if (connection != null) {
@@ -125,7 +122,7 @@ public class OdontologoDaoH2 implements Idao<Odontologo> {
 
         try {
             logger.info("levantando el driver  y conexiones para consultar");
-            forName(DB_JDBC_DRIVER);
+            Class.forName(DB_JDBC_DRIVER);
             connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
 
             logger.info("buscando por id");
@@ -142,7 +139,6 @@ public class OdontologoDaoH2 implements Idao<Odontologo> {
                 String apellido = result.getString("apellido");
                 odontologo = new Odontologo(id, matricula, nombre, apellido);
             }
-
 
 
         } catch (Exception e) {
@@ -167,15 +163,57 @@ public class OdontologoDaoH2 implements Idao<Odontologo> {
 
         try {
             logger.info("levantando el driver  y conexiones para eliminar");
-            forName(DB_JDBC_DRIVER);
-        } catch (ClassNotFoundException e) {
+            Class.forName(DB_JDBC_DRIVER);
+            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+
+            logger.info("creando sentencia de eliminacion");
+            preparedStatement = connection.prepareStatement("DELETE FROM odontologos WHERE id = ?");
+            preparedStatement.setInt(1, id);
+            preparedStatement.executeUpdate();
+
+
+
+
+        } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
+        } finally {
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
         }
 
     }
 
     @Override
     public Odontologo actualizar(Odontologo odontologo) {
-        return null;
+        logger.info("Actualizando el odontólogo: " + odontologo);
+        Connection connection = null;
+
+        PreparedStatement preparedStatement = null;
+
+        try {
+            logger.info("Conectando a base de datos");
+            Class.forName(DB_JDBC_DRIVER);
+            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+            preparedStatement = connection.prepareStatement("UPDATE odontologos SET matricula=?, nombre=?, apellido=? WHERE id = ?");
+
+            preparedStatement.setInt(1, odontologo.getNumeroMatricula());
+            preparedStatement.setString(2, odontologo.getNombre());
+            preparedStatement.setString(3, odontologo.getApellido());
+            preparedStatement.setInt(4, odontologo.getId());
+            preparedStatement.executeUpdate();
+            logger.info("actualizado correctamente a " + odontologo);
+
+            preparedStatement.close();
+
+        } catch (SQLException | ClassNotFoundException throwables) {
+            throwables.printStackTrace();
+        }
+        return odontologo;
     }
 }
+

@@ -1,9 +1,11 @@
 package clinica.proyectoclinicaodontologica.controller;
 
 
-import clinica.proyectoclinicaodontologica.dao.impl.OdontologoDaoH2;
+import clinica.proyectoclinicaodontologica.repository.impl.OdontologoDaoH2;
 import clinica.proyectoclinicaodontologica.model.Odontologo;
 import clinica.proyectoclinicaodontologica.service.OdontologoService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -38,6 +40,22 @@ public class OdontologoController {
     public Odontologo guardarOdontologo(@RequestBody Odontologo odontologo) {
         return odontologoService.guardar(odontologo);
     }
+
+    @PutMapping(path = "/actualizar")
+    public Odontologo actualizarOdontologo(@RequestBody Odontologo odontologo) {
+        return odontologoService.actualizar(odontologo);
+    }
+
+
+    @DeleteMapping("/eliminar/{id}")
+    public ResponseEntity<String> eliminar(@PathVariable int id){
+        ResponseEntity<String> response;
+        odontologoService.eliminar(id);
+
+        response = ResponseEntity.status(HttpStatus.OK).body("Eliminado");
+        return response;
+    }
+
 
 
 // voy a hacer otro controler distinto para guardar un odontologo y buscar todos los odontologos

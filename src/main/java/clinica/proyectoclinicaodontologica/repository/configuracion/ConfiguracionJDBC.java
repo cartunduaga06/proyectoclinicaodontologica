@@ -1,4 +1,4 @@
-package clinica.proyectoclinicaodontologica.dao.configuracion;
+package clinica.proyectoclinicaodontologica.repository.configuracion;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

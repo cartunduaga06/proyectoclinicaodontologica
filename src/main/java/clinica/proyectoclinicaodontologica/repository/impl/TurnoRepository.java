@@ -1,7 +1,7 @@
-package clinica.proyectoclinicaodontologica.dao.impl;
+package clinica.proyectoclinicaodontologica.repository.impl;
 
 
-import clinica.proyectoclinicaodontologica.dao.Idao;
+import clinica.proyectoclinicaodontologica.repository.Idao;
 import clinica.proyectoclinicaodontologica.model.Turno;
 
 import java.util.ArrayList;

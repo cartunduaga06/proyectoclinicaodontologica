@@ -1,4 +1,4 @@
-package clinica.proyectoclinicaodontologica.dao;
+package clinica.proyectoclinicaodontologica.repository;
 
 import java.util.List;
 

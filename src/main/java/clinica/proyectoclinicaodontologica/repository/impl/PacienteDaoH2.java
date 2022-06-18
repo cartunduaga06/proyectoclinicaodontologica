@@ -1,7 +1,7 @@
-package clinica.proyectoclinicaodontologica.dao.impl;
+package clinica.proyectoclinicaodontologica.repository.impl;
 
 
-import clinica.proyectoclinicaodontologica.dao.Idao;
+import clinica.proyectoclinicaodontologica.repository.Idao;
 import clinica.proyectoclinicaodontologica.model.Domicilio;
 import clinica.proyectoclinicaodontologica.model.Paciente;
 import clinica.proyectoclinicaodontologica.util.Util;
