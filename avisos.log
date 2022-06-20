@@ -1736,3 +1736,33 @@
 [2022-06-1721:56:56] [ INFO ] [OdontologoDaoH2:88] ejecutando sentencia de consulta
 [2022-06-1721:56:56] [ INFO ] [OdontologoDaoH2:91] obteniendo resultados
 [2022-06-1721:56:56] [ INFO ] [OdontologoDaoH2:113] [model.Odontologo{id=38, NumeroMatricula=6805839, Nombre='Carlos', APellido='Artunduaga'}]
+[2022-06-1722:01:46] [ INFO ] [OdontologoDaoH2:80] levantando el driver  y conexiones para consultar
+[2022-06-1722:01:46] [ INFO ] [OdontologoDaoH2:85] creando sentencia de consulta
+[2022-06-1722:01:46] [ INFO ] [OdontologoDaoH2:88] ejecutando sentencia de consulta
+[2022-06-1722:01:46] [ INFO ] [OdontologoDaoH2:91] obteniendo resultados
+[2022-06-1722:01:46] [ INFO ] [OdontologoDaoH2:113] [model.Odontologo{id=38, NumeroMatricula=6805839, Nombre='Carlos', APellido='Artunduaga'}]
+[2022-06-1722:01:48] [ INFO ] [OdontologoDaoH2:165] levantando el driver  y conexiones para eliminar
+[2022-06-1722:01:48] [ INFO ] [OdontologoDaoH2:169] creando sentencia de eliminacion
+[2022-06-1722:01:52] [ INFO ] [OdontologoDaoH2:80] levantando el driver  y conexiones para consultar
+[2022-06-1722:01:52] [ INFO ] [OdontologoDaoH2:85] creando sentencia de consulta
+[2022-06-1722:01:52] [ INFO ] [OdontologoDaoH2:88] ejecutando sentencia de consulta
+[2022-06-1722:01:52] [ INFO ] [OdontologoDaoH2:91] obteniendo resultados
+[2022-06-1722:01:52] [ INFO ] [OdontologoDaoH2:113] []
+[2022-06-1722:01:56] [ INFO ] [OdontologoDaoH2:38] levantando el driver  y conexiones para guardar
+[2022-06-1722:01:56] [ INFO ] [OdontologoDaoH2:44] creando sentencia
+[2022-06-1722:01:56] [ INFO ] [OdontologoDaoH2:52] ejecutando la sentencia SQL
+[2022-06-1722:01:56] [ INFO ] [OdontologoDaoH2:68] añadiendo a model.Odontologo{id=0, NumeroMatricula=11111, Nombre='Carlos', APellido='Artunduaga'}
+[2022-06-1722:01:57] [ INFO ] [OdontologoDaoH2:80] levantando el driver  y conexiones para consultar
+[2022-06-1722:01:57] [ INFO ] [OdontologoDaoH2:85] creando sentencia de consulta
+[2022-06-1722:01:57] [ INFO ] [OdontologoDaoH2:88] ejecutando sentencia de consulta
+[2022-06-1722:01:57] [ INFO ] [OdontologoDaoH2:91] obteniendo resultados
+[2022-06-1722:01:57] [ INFO ] [OdontologoDaoH2:113] [model.Odontologo{id=41, NumeroMatricula=11111, Nombre='Carlos', APellido='Artunduaga'}]
+[2022-06-2010:50:55] [ INFO ] [PacienteDaoH2:35] Se va a conectar a la base de datos
+[2022-06-2010:50:56] [ INFO ] [PacienteDaoH2:46] Se guardó el domicilio del paciente
+[2022-06-2010:50:56] [ INFO ] [PacienteDaoH2:53] Se preparó la sentencia para insertar el paciente
+[2022-06-2010:51:02] [ INFO ] [PacienteDaoH2:35] Se va a conectar a la base de datos
+[2022-06-2010:51:02] [ INFO ] [PacienteDaoH2:46] Se guardó el domicilio del paciente
+[2022-06-2010:51:02] [ INFO ] [PacienteDaoH2:53] Se preparó la sentencia para insertar el paciente
+[2022-06-2010:51:05] [ INFO ] [PacienteDaoH2:35] Se va a conectar a la base de datos
+[2022-06-2010:51:05] [ INFO ] [PacienteDaoH2:46] Se guardó el domicilio del paciente
+[2022-06-2010:51:05] [ INFO ] [PacienteDaoH2:53] Se preparó la sentencia para insertar el paciente

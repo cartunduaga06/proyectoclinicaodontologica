@@ -5,6 +5,7 @@ import clinica.proyectoclinicaodontologica.repository.Idao;
 import clinica.proyectoclinicaodontologica.model.Domicilio;
 import clinica.proyectoclinicaodontologica.model.Paciente;
 import clinica.proyectoclinicaodontologica.util.Util;
+import org.apache.log4j.Logger;
 
 import java.sql.Connection;
 import java.sql.*;
@@ -15,12 +16,12 @@ public class PacienteDaoH2 implements Idao<Paciente> {
 
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";
     //con la instruccion INIT=RUNSCRIPT cuando se conecta a la base ejecuta el script de sql que esta en dicho archivo
-    private final static String DB_URL = "jdbc:h2:~/db_clinica15;INIT=RUNSCRIPT FROM 'create.sql'";
+    private final static String DB_URL = "jdbc:h2:~/db_new1;INIT=RUNSCRIPT FROM 'create.sql'";
     private final static String DB_USER ="sa";
     private final static String DB_PASSWORD = "sa";
 
     private DomicilioDaoH2 domicilioDaoH2 = new  DomicilioDaoH2();
-
+    private static final Logger logger = Logger.getLogger(PacienteDaoH2.class.getName());
 
 
     @Override
@@ -31,6 +32,7 @@ public class PacienteDaoH2 implements Idao<Paciente> {
 
         try {
             //1 Levantar el driver y Conectarnos
+            logger.info("Se va a conectar a la base de datos");
             Class.forName(DB_JDBC_DRIVER);
             connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
 
@@ -41,11 +43,14 @@ public class PacienteDaoH2 implements Idao<Paciente> {
             Domicilio domicilio = domicilioDaoH2.guardar(paciente.getDomicilio());
             Integer id_domicilio= domicilio.getId();
             //paciente.getDomicilio().setId(domicilio.getId());
+            logger.info("Se guardó el domicilio del paciente");
+
 
             //2 Crear una sentencia especificando que el ID lo auto incrementa la base de datos y que nos devuelva esa Key es decir ID
             preparedStatement = connection.prepareStatement("INSERT INTO pacientes(nombre,apellido,dni,fecha_ingreso,domicilio_id) VALUES(?,?,?,?,?)", Statement.RETURN_GENERATED_KEYS);
             //No le vamos a pasar el ID ya que hicimos que fuera autoincremental en la base de datos
             //preparedStatement.setInt(1,paciente.getId());
+            logger.info("Se preparó la sentencia para insertar el paciente");
             preparedStatement.setString(1, paciente.getNombre());
             preparedStatement.setString(2, paciente.getApellido());
             preparedStatement.setString(3, paciente.getDni());

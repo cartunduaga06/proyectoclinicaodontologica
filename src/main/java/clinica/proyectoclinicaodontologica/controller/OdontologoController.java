@@ -58,26 +58,6 @@ public class OdontologoController {
 
 
 
-// voy a hacer otro controler distinto para guardar un odontologo y buscar todos los odontologos
-/*
-    @PostMapping (path = "/guardar")
 
-    public Odontologo guardarOdontologo(@RequestBody Odontologo odontologo) {
-        return odontologoService.guardar(odontologo);
-
-    }
-
-    @GetMapping (path = "/buscartodos")
-    @ResponseBody
-    public List<Odontologo> buscarTodos() {
-        return odontologoService.buscarTodos();
-    }
-
-    @GetMapping (path = "/buscarporid/{id}")
-    @ResponseBody
-    public Odontologo buscarPorId(@PathVariable int id) {
-        return odontologoService.buscarPorId(id);
-    }
-*/
 
 }
