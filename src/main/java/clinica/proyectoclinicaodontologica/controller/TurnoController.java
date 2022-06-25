@@ -1,9 +1,9 @@
 package clinica.proyectoclinicaodontologica.controller;
 
 
-import clinica.proyectoclinicaodontologica.repository.impl.TurnoRepository;
 import clinica.proyectoclinicaodontologica.model.Turno;
 import clinica.proyectoclinicaodontologica.service.TurnoService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,7 +16,8 @@ import java.util.List;
 @RequestMapping("/turnos")
 public class TurnoController {
 
-private TurnoService turnoService = new TurnoService(new TurnoRepository());
+    @Autowired
+private TurnoService turnoService;
 
 
 @GetMapping (path = "/buscarTodos")

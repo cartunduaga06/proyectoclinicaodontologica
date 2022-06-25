@@ -1,6 +1,13 @@
 package clinica.proyectoclinicaodontologica.model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "domicilios")
 public class Domicilio {
+
+     @Id
+     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "domicilio_generator")
     private Integer id;
     private String calle;
     private String numero;
@@ -10,19 +17,7 @@ public class Domicilio {
     public Domicilio() {
     }
 
-    public Domicilio(Integer id, String calle, String numero, String localidad, String provincia) {
-        this.id = id;
-        this.calle = calle;
-        this.numero = numero;
-        this.localidad = localidad;
-        this.provincia = provincia;
-    }
-    public Domicilio( String calle, String numero, String localidad, String provincia) {
-        this.calle = calle;
-        this.numero = numero;
-        this.localidad = localidad;
-        this.provincia = provincia;
-    }
+
 
     public Integer getId() {
         return id;

@@ -1,31 +1,41 @@
 package clinica.proyectoclinicaodontologica.service;
 
 
-import clinica.proyectoclinicaodontologica.repository.Idao;
+
 import clinica.proyectoclinicaodontologica.model.Turno;
+import clinica.proyectoclinicaodontologica.repository.TurnoRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class TurnoService {
 
-    private Idao<Turno> turnorepository;
+    private TurnoRepository turnoRepository;
 
-    public TurnoService(Idao<Turno> turnodao) {
-        this.turnorepository = turnodao;
+    public TurnoService(TurnoRepository turnoRepository) {
+        this.turnoRepository = turnoRepository;
     }
 
-    public Turno guardar(Turno turno) {
-        return turnorepository.guardar(turno);
+    public Turno guardar(Turno t) {
+        return turnoRepository.save(t);
+    }
+
+    public Turno buscar(Integer id) {
+        return turnoRepository.findById(id).get();
     }
 
     public List<Turno> buscarTodos() {
-        return turnorepository.buscarTodos();
+        return turnoRepository.findAll();
     }
 
-    public Turno buscarPorId(int id) {
-        return turnorepository.buscar(id);
+    public void eliminar(Integer id) {
+        turnoRepository.deleteById(id);
     }
 
-
-
+    public Turno actualizar(Turno t) {
+        return turnoRepository.save(t);
+    }
 }
+
+

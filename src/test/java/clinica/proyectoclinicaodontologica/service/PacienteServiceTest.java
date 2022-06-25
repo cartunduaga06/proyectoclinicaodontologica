@@ -1,8 +1,6 @@
 package clinica.proyectoclinicaodontologica.service;
 
 
-import clinica.proyectoclinicaodontologica.repository.impl.DomicilioDaoH2;
-import clinica.proyectoclinicaodontologica.repository.impl.PacienteDaoH2;
 import clinica.proyectoclinicaodontologica.model.Domicilio;
 import clinica.proyectoclinicaodontologica.model.Paciente;
 import org.junit.Assert;
@@ -13,10 +11,10 @@ import java.util.Date;
 import java.util.List;
 
 public class PacienteServiceTest {
-    private static PacienteService pacienteService = new PacienteService(new PacienteDaoH2());
-    private DomicilioService domicilioService = new DomicilioService(new DomicilioDaoH2());
+    private static PacienteService pacienteService;
+    private DomicilioService domicilioService;
 
-
+/*
     @BeforeClass
     public static void cargarDataSet() {
         Domicilio domicilio = new Domicilio("Av Santa fe", "444", "CABA", "Buenos Aires");
@@ -47,5 +45,5 @@ public class PacienteServiceTest {
         Assert.assertTrue(!pacientes.isEmpty());
         Assert.assertTrue(pacientes.size() > 0);
         System.out.println(pacientes);
-    }
+    }*/
 }

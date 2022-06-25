@@ -1,44 +1,46 @@
 package clinica.proyectoclinicaodontologica.service;
 
-import clinica.proyectoclinicaodontologica.repository.Idao;
+
 import clinica.proyectoclinicaodontologica.model.Odontologo;
+import clinica.proyectoclinicaodontologica.repository.OdontologoRepository;
+import org.springframework.stereotype.Service;
 
 
 import java.util.List;
 
+@Service
 public class OdontologoService {
 
     //atributo
-    private Idao<Odontologo> odontologodao;
+    private OdontologoRepository odontologoRepository;
 
 
     //constructor
-    public OdontologoService(Idao<Odontologo> odontologodao) {
-        this.odontologodao = odontologodao;
+
+    public OdontologoService(OdontologoRepository odontologoRepository) {
+        this.odontologoRepository = odontologoRepository;
     }
 
     //Operaciones
-
-    public Odontologo guardar (Odontologo odontologo) {
-        return odontologodao.guardar(odontologo);
+    public Odontologo guardar(Odontologo o) {
+        return odontologoRepository.save(o);
     }
 
-
+    public Odontologo buscar(Integer id) {
+        return odontologoRepository.findById(id).get();
+    }
 
     public List<Odontologo> buscarTodos() {
-        return odontologodao.buscarTodos();
+        return odontologoRepository.findAll();
     }
 
-
-    public Odontologo buscarPorId(int id) {
-        return odontologodao.buscar(id);
+    public void eliminar(Integer id) {
+        odontologoRepository.deleteById(id);
     }
 
-    public Odontologo actualizar(Odontologo odontologo) {
-        return odontologodao.actualizar(odontologo);
-    }
-
-    public void eliminar(int id) {
-        odontologodao.eliminar(id);
+    public Odontologo actualizar(Odontologo o) {
+        return odontologoRepository.save(o);
     }
 }
+
+

@@ -1,8 +1,8 @@
 package clinica.proyectoclinicaodontologica.controller;
 
 import clinica.proyectoclinicaodontologica.model.Paciente;
-import clinica.proyectoclinicaodontologica.repository.impl.PacienteDaoH2;
 import clinica.proyectoclinicaodontologica.service.PacienteService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,7 +13,8 @@ import java.util.List;
 @RequestMapping(path = "/pacientes")
 public class PacienteController {
 
-    private PacienteService pacienteService = new PacienteService(new PacienteDaoH2());
+    @Autowired
+    private PacienteService pacienteService;
 
     @GetMapping(path = "/buscarTodos")
     public List<Paciente> buscarTodos() {

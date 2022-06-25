@@ -1,6 +1,14 @@
 package clinica.proyectoclinicaodontologica.model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "odontologo")
+
 public class Odontologo {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "odontologo_secuencia")
 
     private int id;
     private int NumeroMatricula;

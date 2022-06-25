@@ -1,12 +1,27 @@
 package clinica.proyectoclinicaodontologica.model;
 
+import javax.persistence.*;
 import java.util.Date;
+
+@Entity
+@Table(name = "turno")
 
 public class Turno {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "turno_secuencia")
     private Integer id;
+
+    //relacion paciente turno
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "paciente_id")
     private Paciente paciente;
+
+    //relacion odontologo turno
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "odontologo_id")
     private Odontologo odontologo;
+
     private Date fecha;
 
     public Turno() {

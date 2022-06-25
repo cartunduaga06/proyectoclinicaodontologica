@@ -1,9 +1,9 @@
 package clinica.proyectoclinicaodontologica.controller;
 
 
-import clinica.proyectoclinicaodontologica.repository.impl.OdontologoDaoH2;
 import clinica.proyectoclinicaodontologica.model.Odontologo;
 import clinica.proyectoclinicaodontologica.service.OdontologoService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,9 +17,8 @@ public class OdontologoController {
 
 
 
-
-    private OdontologoService odontologoService= new OdontologoService(new OdontologoDaoH2());
-
+    @Autowired
+    private OdontologoService odontologoService;
 
 
     @GetMapping(path = "/buscartodos")
@@ -30,7 +29,7 @@ public class OdontologoController {
 
     @GetMapping(path = "/buscarPorId/{id}")
     public Odontologo buscarPorId(@PathVariable int id) {
-        return odontologoService.buscarPorId(id);
+        return odontologoService.buscar(id);
     }
 
 
