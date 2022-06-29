@@ -13,12 +13,12 @@ public class Turno {
     private Integer id;
 
     //relacion paciente turno
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "paciente_id")
     private Paciente paciente;
 
     //relacion odontologo turno
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "odontologo_id")
     private Odontologo odontologo;
 
@@ -33,6 +33,14 @@ public class Turno {
         this.odontologo = odontologo;
         this.fecha = fecha;
     }
+
+    public Turno(Paciente paciente, Odontologo odontologo, Date fecha) {
+        this.paciente = paciente;
+        this.odontologo = odontologo;
+        this.fecha = fecha;
+    }
+
+
 
     public Integer getId() {
         return id;

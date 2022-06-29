@@ -6,6 +6,7 @@ import clinica.proyectoclinicaodontologica.model.Turno;
 import clinica.proyectoclinicaodontologica.repository.TurnoRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -18,6 +19,9 @@ public class TurnoService {
     }
 
     public Turno guardar(Turno t) {
+        //fecha turno
+        //t.setFecha(new Date());
+
         return turnoRepository.save(t);
     }
 

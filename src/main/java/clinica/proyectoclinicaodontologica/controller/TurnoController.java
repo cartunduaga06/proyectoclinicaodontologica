@@ -1,14 +1,15 @@
 package clinica.proyectoclinicaodontologica.controller;
 
 
+
 import clinica.proyectoclinicaodontologica.model.Turno;
+import clinica.proyectoclinicaodontologica.service.OdontologoService;
+import clinica.proyectoclinicaodontologica.service.PacienteService;
 import clinica.proyectoclinicaodontologica.service.TurnoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -18,6 +19,11 @@ public class TurnoController {
 
     @Autowired
 private TurnoService turnoService;
+    @Autowired
+    private PacienteService pacienteService;
+    @Autowired
+    private OdontologoService odontologoService;
+
 
 
 @GetMapping (path = "/buscarTodos")
@@ -26,9 +32,28 @@ public List<Turno> buscarTodos() {
 }
 
 
-@PostMapping("/guardar")
-public ResponseEntity<Turno> guardarTurno(Turno turno) {
-    return ResponseEntity.ok(turnoService.guardar(turno));
-}
+
+
+    @PostMapping(path = "/guardar")
+    public ResponseEntity<Turno> registrarTurno(@RequestBody Turno turno) {
+        ResponseEntity<Turno> response;
+        if (pacienteService.buscar(turno.getPaciente().getId()) != null && odontologoService.buscar  (turno.getOdontologo().getId()) != null)
+            response = ResponseEntity.ok(turnoService.guardar(turno));
+
+        else
+            response = ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+
+        return response;
+    }
+
+
+    @PutMapping(path = "/actualizar")
+    public ResponseEntity<Turno> actualizarTurno(@RequestBody Turno turno) {
+        ResponseEntity<Turno> response;
+        response = ResponseEntity.ok(turnoService.actualizar(turno));
+        return response;
+    }
+
+
 
 }
