@@ -2,6 +2,7 @@ package clinica.proyectoclinicaodontologica.controller;
 
 
 
+import clinica.proyectoclinicaodontologica.exceptions.ResourceNotFoundException;
 import clinica.proyectoclinicaodontologica.model.Turno;
 import clinica.proyectoclinicaodontologica.service.OdontologoService;
 import clinica.proyectoclinicaodontologica.service.PacienteService;
@@ -10,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.HttpClientErrorException;
 
 import java.util.List;
 
@@ -35,7 +37,7 @@ public List<Turno> buscarTodos() {
 
 
     @PostMapping(path = "/guardar")
-    public ResponseEntity<Turno> registrarTurno(@RequestBody Turno turno) {
+    public ResponseEntity<Turno> registrarTurno(@RequestBody Turno turno) throws HttpClientErrorException {
         ResponseEntity<Turno> response;
         if (pacienteService.buscar(turno.getPaciente().getId()) != null && odontologoService.buscar  (turno.getOdontologo().getId()) != null)
             response = ResponseEntity.ok(turnoService.guardar(turno));
@@ -51,6 +53,14 @@ public List<Turno> buscarTodos() {
     public ResponseEntity<Turno> actualizarTurno(@RequestBody Turno turno) {
         ResponseEntity<Turno> response;
         response = ResponseEntity.ok(turnoService.actualizar(turno));
+        return response;
+    }
+
+    @DeleteMapping("/eliminar/{id}")
+    public ResponseEntity<String> eliminar(@PathVariable Integer id) throws ResourceNotFoundException {
+        ResponseEntity<String> response = null;
+        turnoService.eliminar(id);
+        response = ResponseEntity.status(HttpStatus.OK).body("Eliminado");
         return response;
     }
 

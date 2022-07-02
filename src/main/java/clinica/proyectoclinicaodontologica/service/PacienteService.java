@@ -1,10 +1,13 @@
 package clinica.proyectoclinicaodontologica.service;
+import clinica.proyectoclinicaodontologica.exceptions.ResourceNotFoundException;
+import clinica.proyectoclinicaodontologica.model.Odontologo;
 import clinica.proyectoclinicaodontologica.model.Paciente;
 import clinica.proyectoclinicaodontologica.repository.PacienteRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class PacienteService {
@@ -22,15 +25,27 @@ public class PacienteService {
     }
 
     public  Paciente buscar(Integer id) {
-        return pacienteRepository.findById(id).get();
+        Paciente paciente = null;
+        Optional<Paciente> optionalPaciente = pacienteRepository.findById(id);
+        if (optionalPaciente.isPresent()) {
+            paciente = optionalPaciente.get();
+        }
+        return paciente;
     }
 
     public List<Paciente> buscarTodos() {
         return pacienteRepository.findAll();
     }
 
-    public void eliminar(Integer id) {
-        pacienteRepository.deleteById(id);
+    public void eliminar(Integer id) throws ResourceNotFoundException {
+
+        if(this.buscar(id) == null){
+            throw new ResourceNotFoundException("paciente no existe con id " + id);
+        } else
+        {
+            pacienteRepository.deleteById(id);
+        }
+
     }
 
 
