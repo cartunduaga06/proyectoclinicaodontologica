@@ -2,6 +2,7 @@ package clinica.proyectoclinicaodontologica.controller;
 
 
 
+import clinica.proyectoclinicaodontologica.exceptions.BadRequestException;
 import clinica.proyectoclinicaodontologica.exceptions.ResourceNotFoundException;
 import clinica.proyectoclinicaodontologica.model.Turno;
 import clinica.proyectoclinicaodontologica.service.OdontologoService;
@@ -57,12 +58,20 @@ public List<Turno> buscarTodos() {
     }
 
     @DeleteMapping("/eliminar/{id}")
-    public ResponseEntity<String> eliminar(@PathVariable Integer id) throws ResourceNotFoundException {
+    public ResponseEntity<String> eliminar(@PathVariable Integer id) throws BadRequestException {
         ResponseEntity<String> response = null;
         turnoService.eliminar(id);
         response = ResponseEntity.status(HttpStatus.OK).body("Eliminado");
         return response;
     }
+
+    @ExceptionHandler(BadRequestException.class)
+    public ResponseEntity<String> tratarErrorBadRequest(BadRequestException ex){
+
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());
+
+    }
+
 
 
 

@@ -2,11 +2,21 @@ package clinica.proyectoclinicaodontologica.service;
 
 import clinica.proyectoclinicaodontologica.model.Odontologo;
 import org.junit.BeforeClass;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+
+@FixMethodOrder
+@RunWith(SpringRunner.class)
+@SpringBootTest
 public class OdontologoServiceTest {
 
     //TEST PARA ODONTOLOGOSERVICE
@@ -25,9 +35,12 @@ public class OdontologoServiceTest {
 
     @Test
     public void testBuscarTodos() {
-
-        assertEquals(1, odontologoService.buscarTodos().size());
+        List<Odontologo> odontologos = odontologoService.buscarTodos();
+        assertEquals(odontologos.size(), 2);
     }
 
 
-}
+    }
+
+
+

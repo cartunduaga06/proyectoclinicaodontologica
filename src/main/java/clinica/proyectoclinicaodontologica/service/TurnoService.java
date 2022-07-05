@@ -2,6 +2,7 @@ package clinica.proyectoclinicaodontologica.service;
 
 
 
+import clinica.proyectoclinicaodontologica.exceptions.BadRequestException;
 import clinica.proyectoclinicaodontologica.exceptions.ResourceNotFoundException;
 import clinica.proyectoclinicaodontologica.model.Turno;
 import clinica.proyectoclinicaodontologica.repository.TurnoRepository;
@@ -41,9 +42,9 @@ public class TurnoService {
         return turnoRepository.findAll();
     }
 
-    public void eliminar(Integer id)  throws ResourceNotFoundException {
+    public void eliminar(Integer id)  throws BadRequestException {
         if (this.buscar(id) == null) {
-            throw new ResourceNotFoundException("turno no existe con id " + id);
+            throw new BadRequestException("turno no existe con id " + id);
         } else {
             turnoRepository.deleteById(id);
         }
