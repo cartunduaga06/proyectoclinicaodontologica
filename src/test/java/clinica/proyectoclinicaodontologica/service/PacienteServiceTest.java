@@ -4,6 +4,7 @@ package clinica.proyectoclinicaodontologica.service;
 import clinica.proyectoclinicaodontologica.exceptions.ResourceNotFoundException;
 import clinica.proyectoclinicaodontologica.model.Domicilio;
 import clinica.proyectoclinicaodontologica.model.Paciente;
+import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
@@ -30,6 +31,8 @@ public class PacienteServiceTest {
     @Autowired
     private DomicilioService domicilioService;
 
+    //logger
+    private static Logger logger = Logger.getLogger(PacienteServiceTest.class.getName());
 
     //@BeforeClass
     public  void cargarDataSet() {
@@ -59,10 +62,12 @@ public class PacienteServiceTest {
 
     @Test
     public void traerTodos() {
+        cargarDataSet() ;
         List<Paciente> pacientes = pacienteService.buscarTodos();
-        Assert.assertTrue(!pacientes.isEmpty());
+
         Assert.assertTrue(pacientes.size() > 0);
         System.out.println(pacientes);
+        logger.info("Pacientes: " + pacientes);
 
     }
 

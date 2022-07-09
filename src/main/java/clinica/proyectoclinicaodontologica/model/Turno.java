@@ -73,4 +73,14 @@ public class Turno {
     public void setFecha(Date fecha) {
         this.fecha = fecha;
     }
+
+    @Override
+    public String toString() {
+        return "Turno{" +
+                "id=" + id +
+                ", paciente=" + paciente +
+                ", odontologo=" + odontologo +
+                ", fecha=" + fecha +
+                '}';
+    }
 }
