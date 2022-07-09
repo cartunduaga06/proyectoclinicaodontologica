@@ -6,28 +6,42 @@ import clinica.proyectoclinicaodontologica.model.Domicilio;
 import clinica.proyectoclinicaodontologica.model.Paciente;
 import org.junit.Assert;
 import org.junit.BeforeClass;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.MethodSorters;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.transaction.Transactional;
 import java.util.Date;
 import java.util.List;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+@RunWith(SpringRunner.class)
+@SpringBootTest
+@Transactional
 public class PacienteServiceTest {
 
-    private static PacienteService pacienteService;
+    //TEST PARA PACIENTESERVICE
+    @Autowired
+    private  PacienteService pacienteService;
+    @Autowired
     private DomicilioService domicilioService;
 
 
-    @BeforeClass
-    public static void cargarDataSet() {
-        Domicilio domicilio = new Domicilio("Av Santa fe", "444", "CABA", "Buenos Aires");
+    //@BeforeClass
+    public  void cargarDataSet() {
+        Domicilio domicilio = domicilioService.guardar(new Domicilio("Av Santa fe", "444", "CABA", "Buenos Aires"));
         Paciente p = pacienteService.guardar(new Paciente("Santiago", "Paz", "88888888", new Date(), domicilio));
-        Domicilio domicilio1 = new Domicilio("Av Avellaneda", "333", "CABA", "Buenos Aires");
+        Domicilio domicilio1 = domicilioService.guardar(new Domicilio("Av Avellaneda", "333", "CABA", "Buenos Aires"));
         Paciente p1 = pacienteService.guardar(new Paciente("Micaela", "Perez", "99999999", new Date(), domicilio));
     }
 
     @Test
     public void agregarYBuscarPacienteTest(){
-        Domicilio domicilio = new Domicilio("Calle", "123", "Temperley", "Buenos Aires");
+        Domicilio domicilio = domicilioService.guardar(new Domicilio("Calle", "123", "Temperley", "Buenos Aires"));
         Paciente p = pacienteService.guardar(new Paciente("Tomas", "Pereyra", "12345678", new Date(), domicilio));
 
         Assert.assertNotNull(pacienteService.buscar(p.getId()));
@@ -36,7 +50,9 @@ public class PacienteServiceTest {
 
     @Test
     public void eliminarPacienteTest() throws ResourceNotFoundException {
-        pacienteService.eliminar(3);
+        Domicilio domicilio = domicilioService.guardar(new Domicilio("Calle", "123", "Temperley", "Buenos Aires"));
+        Paciente p = pacienteService.guardar(new Paciente("Tomas", "Pereyra", "12345678", new Date(), domicilio));
+        pacienteService.eliminar(p.getId());
         Assert.assertTrue(pacienteService.buscar(3) == null);
 
     }
