@@ -4,6 +4,7 @@ package clinica.proyectoclinicaodontologica.service;
 import clinica.proyectoclinicaodontologica.exceptions.ResourceNotFoundException;
 import clinica.proyectoclinicaodontologica.model.Odontologo;
 import clinica.proyectoclinicaodontologica.repository.OdontologoRepository;
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
 
@@ -15,6 +16,9 @@ public class OdontologoService {
 
     //atributo
     private OdontologoRepository odontologoRepository;
+
+    //LOGGER
+    private static final Logger logger = Logger.getLogger(OdontologoService.class);
 
 
     //constructor
@@ -34,6 +38,7 @@ public class OdontologoService {
         if (optionalOdontologo.isPresent()) {
             odontologo = optionalOdontologo.get();
         }
+        logger.info("Odontologo encontrado: " + odontologo);
         return odontologo;
     }
 
@@ -44,9 +49,12 @@ public class OdontologoService {
     public void eliminar(Integer id) throws ResourceNotFoundException {
         //odontologoRepository.deleteById(id);
         if(this.buscar(id) == null){
-            throw new ResourceNotFoundException("Odontologo no existe con id " + id);
+            logger.error("Odontologo no existe con id " + id);
+            throw new ResourceNotFoundException( "Odontologo no existe con id " + id );
+
         } else
         {
+            logger.info("Odontologo eliminado: " + id);
             odontologoRepository.deleteById(id);
         }
 

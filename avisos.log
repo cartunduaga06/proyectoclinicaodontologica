@@ -1797,3 +1797,8 @@
 [2022-07-0823:14:43] [ INFO ] [TurnoServiceTest:53] Se registro turnoTurno{id=1, paciente=clinica.proyectoclinicaodontologica.model.Paciente@24455d50, odontologo=model.Odontologo{id=505, NumeroMatricula=1234, Nombre='Perez', APellido='Perez'}, fecha=Fri Jul 08 23:14:43 COT 2022}
 [2022-07-0823:14:43] [ INFO ] [TurnoServiceTest:62] Se encontraron 1 turnos
 [2022-07-0823:14:43] [ INFO ] [PacienteServiceTest:70] Pacientes: [clinica.proyectoclinicaodontologica.model.Paciente@7ca2319f, clinica.proyectoclinicaodontologica.model.Paciente@19ce597a]
+[2022-07-1120:24:02] [ INFO ] [TurnoServiceTest:115] Se actualizo turnoTurno{id=402, paciente=clinica.proyectoclinicaodontologica.model.Paciente@5c7b504, odontologo=model.Odontologo{id=553, NumeroMatricula=1234, Nombre='Perez', APellido='Perez'}, fecha=Mon Jul 11 20:24:02 COT 2022}
+[2022-07-1120:24:02] [ INFO ] [TurnoServiceTest:87] Se busco el  turnoTurno{id=403, paciente=clinica.proyectoclinicaodontologica.model.Paciente@4cb87009, odontologo=model.Odontologo{id=554, NumeroMatricula=1234, Nombre='Ari', APellido='acuña'}, fecha=Mon Jul 11 20:24:02 COT 2022}
+[2022-07-1120:24:02] [ INFO ] [TurnoServiceTest:53] Se registro turnoTurno{id=1, paciente=clinica.proyectoclinicaodontologica.model.Paciente@4b8ac512, odontologo=model.Odontologo{id=555, NumeroMatricula=1234, Nombre='Perez', APellido='Perez'}, fecha=Mon Jul 11 20:24:02 COT 2022}
+[2022-07-1120:24:02] [ INFO ] [TurnoServiceTest:62] Se encontraron 1 turnos
+[2022-07-1120:24:03] [ INFO ] [PacienteServiceTest:70] Pacientes: [clinica.proyectoclinicaodontologica.model.Paciente@77afdbc5, clinica.proyectoclinicaodontologica.model.Paciente@4b718c45]

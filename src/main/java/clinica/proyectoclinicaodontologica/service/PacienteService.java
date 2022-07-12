@@ -3,6 +3,7 @@ import clinica.proyectoclinicaodontologica.exceptions.ResourceNotFoundException;
 import clinica.proyectoclinicaodontologica.model.Odontologo;
 import clinica.proyectoclinicaodontologica.model.Paciente;
 import clinica.proyectoclinicaodontologica.repository.PacienteRepository;
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
@@ -14,6 +15,9 @@ public class PacienteService {
 
 
     private PacienteRepository pacienteRepository;
+
+    //logger
+    private static final Logger logger = Logger.getLogger(PacienteService.class);
 
     public PacienteService(PacienteRepository pacienteRepository) {
         this.pacienteRepository = pacienteRepository;
@@ -30,6 +34,7 @@ public class PacienteService {
         if (optionalPaciente.isPresent()) {
             paciente = optionalPaciente.get();
         }
+        logger.info("Paciente encontrado: " + paciente);
         return paciente;
     }
 
@@ -40,9 +45,11 @@ public class PacienteService {
     public void eliminar(Integer id) throws ResourceNotFoundException {
 
         if(this.buscar(id) == null){
+            logger.error("Paciente no existe con id " + id);
             throw new ResourceNotFoundException("paciente no existe con id " + id);
         } else
         {
+            logger.info("Paciente eliminado: " + id);
             pacienteRepository.deleteById(id);
         }
 
